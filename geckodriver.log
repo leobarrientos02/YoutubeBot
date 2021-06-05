@@ -31,3 +31,11 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1622880164770	Marionette	INFO	Stopped listening on port 57996
+1622880741460	geckodriver	INFO	Listening on 127.0.0.1:50718
+1622880744544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\leoba\\AppData\\Local\\Temp\\rust_mozprofileuOzyc9"
+1622880745329	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoba\\AppData\\Local\\Temp\\rust_mozprofileuOzyc9\\search.json.mozlz4", (void 0)))
+1622880749762	Marionette	INFO	Listening on port 50730
+1622880749914	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622880752416	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1622880760637	Marionette	INFO	Stopped listening on port 50730
