@@ -10,7 +10,7 @@ class YoutubeBot:
     def surf(self):
         bot = self.bot
         bot.get('https://www.youtube.com/')
-        time.sleep(3)
+        time.sleep(2)
 
     def search(self, video):
         bot = self.bot
@@ -21,7 +21,9 @@ class YoutubeBot:
             time.sleep(2)
 
 
+video = input("Enter a video you want to see: ")
+
 user = YoutubeBot()
 user.surf()
-video = "UFC Embedded"
+
 user.search(video)
